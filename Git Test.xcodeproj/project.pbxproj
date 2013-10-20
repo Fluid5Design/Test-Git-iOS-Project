@@ -21,6 +21,7 @@
 		2D456B9D1814643F006AF60F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D456B7F1814643F006AF60F /* UIKit.framework */; };
 		2D456BA51814643F006AF60F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D456BA31814643F006AF60F /* InfoPlist.strings */; };
 		2D456BA71814643F006AF60F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D456BA61814643F006AF60F /* Git_TestTests.m */; };
+		2D456BB2181466B7006AF60F /* F5DTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D456BB1181466B7006AF60F /* F5DTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2D456BA21814643F006AF60F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		2D456BA41814643F006AF60F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D456BA61814643F006AF60F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2D456BB0181466B7006AF60F /* F5DTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F5DTest.h; sourceTree = "<group>"; };
+		2D456BB1181466B7006AF60F /* F5DTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F5DTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2D456B8D1814643F006AF60F /* Main.storyboard */,
 				2D456B901814643F006AF60F /* F5DViewController.h */,
 				2D456B911814643F006AF60F /* F5DViewController.m */,
+				2D456BB0181466B7006AF60F /* F5DTest.h */,
+				2D456BB1181466B7006AF60F /* F5DTest.m */,
 				2D456B931814643F006AF60F /* Images.xcassets */,
 				2D456B821814643F006AF60F /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				2D456B8C1814643F006AF60F /* F5DAppDelegate.m in Sources */,
 				2D456B921814643F006AF60F /* F5DViewController.m in Sources */,
 				2D456B881814643F006AF60F /* main.m in Sources */,
+				2D456BB2181466B7006AF60F /* F5DTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
